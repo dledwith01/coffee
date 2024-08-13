@@ -2,11 +2,13 @@
 keep your pc awake with coffee
 
 Author: Dan Ledwith (www.github.com/dledwith01)
+
 Last Updated: 8/13/2024
 
 This application, 'coffee', prevents your PC from going to sleep by simulating presses of the keyboard (specifically the 'shift' key)
 Presses are simulated every 5 to 300 seconds (5 minutes) at a random interval each time
 This lightweight application launches in the background and can be controlled via the system tray
+
 
 Instructions:
 Right-click from the system tray to view a pop-up menu to control the application
