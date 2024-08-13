@@ -25,8 +25,8 @@ minimize button will minimize application to the task bar
    
 exit button with close the window, but keep the application running in the system tray
     
-    	start - starts simulating keyboard presses (application starts on launch)
+start - starts simulating keyboard presses (application starts on launch)
       
-      	stop - stops simulating keyboard presses
+stop - stops simulating keyboard presses
 	
- 	exit - exits the application
+exit - exits the application
