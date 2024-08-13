@@ -13,6 +13,8 @@ This lightweight application launches in the background and can be controlled vi
 
 
 Instructions:
+
+
 Right-click from the system tray to view a pop-up menu to control the application
 
 open - opens a window
