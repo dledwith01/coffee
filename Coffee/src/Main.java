@@ -38,7 +38,6 @@ public class Main extends JFrame {
         addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
-                sleepPreventionTask.stop();
                 setVisible(false);
             }
         });

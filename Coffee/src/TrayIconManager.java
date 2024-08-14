@@ -25,7 +25,6 @@ public class TrayIconManager {
         MenuItem openItem = new MenuItem("open");
         openItem.addActionListener(e -> {
             mainApp.setVisible(true);
-            mainApp.setState(Frame.NORMAL);
         });
         popup.add(openItem);
 
@@ -46,10 +45,6 @@ public class TrayIconManager {
 
         trayIcon = new TrayIcon(trayImage, "coffee", popup);
         trayIcon.setImageAutoSize(true);
-        trayIcon.addActionListener(e -> {
-            mainApp.setVisible(true);
-            mainApp.setState(Frame.NORMAL);
-        });
 
         try {
             SystemTray.getSystemTray().add(trayIcon);
