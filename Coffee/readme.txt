@@ -13,7 +13,7 @@ Right-click from the system tray to view a pop-up menu to control the applicatio
 		the window displays logging information with a time stamp of the most recent simulated press of the keyboard
 		buttons are available to control the application
 		minimize button will minimize application to the task bar
-		exit button with close the window, but keep the application running in the system tray
+		exit button will close the window but keep the application running in the system tray
 	start - starts simulating keyboard presses (application starts on launch)
 	stop - stops simulating keyboard presses
 	exit - exits the application
