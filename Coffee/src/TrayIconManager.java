@@ -1,5 +1,4 @@
 import java.awt.AWTException;
-import java.awt.Frame;
 import java.awt.Image;
 import java.awt.MenuItem;
 import java.awt.PopupMenu;
@@ -23,9 +22,7 @@ public class TrayIconManager {
         PopupMenu popup = new PopupMenu();
 
         MenuItem openItem = new MenuItem("open");
-        openItem.addActionListener(e -> {
-            mainApp.setVisible(true);
-        });
+        openItem.addActionListener(e -> mainApp.setVisible(true));
         popup.add(openItem);
 
         MenuItem startItem = new MenuItem("start");
